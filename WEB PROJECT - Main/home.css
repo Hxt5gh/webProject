@@ -1,0 +1,466 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/*                                                Header starat */
+
+
+header {
+    background-color: black;
+    color: white;
+    height: 10vh;
+    width: 100vw;
+    /* border: 2px solid rgb(160, 187, 79); */
+    position: fixed;
+    z-index: 1;
+
+}
+
+#h2prpt {
+    padding-top: 16px;
+    padding-left: 23px;
+    font-family: cursive;
+}
+
+li {
+    display: inline-block;
+    padding: 0px 25px;
+    padding-top: 28px;
+}
+
+li a {
+
+    text-decoration: none;
+    color: white;
+
+}
+
+ul {
+    position: absolute;
+    right: 2vw;
+    top: -0.5vh;
+
+}
+
+/* ul li{
+    transition: all .3s;
+} */
+
+li a:hover {
+    color: greenyellow;
+    /* font-size: 18px; */
+    /* transform: translateY(10px); */
+}
+ul li:hover
+{
+    transform: translateY(-4px);
+    transition: all .2s ease-in;
+}
+
+
+.signup {
+    background-color: white;
+    border: 2px solid rgb(0, 0, 0);
+    padding-bottom: 6px;
+    padding-top: 6px;
+    padding-left: 11px;
+    padding-right: 11px;
+    border-radius: 20px;
+}
+
+.signup a {
+    color: black;
+    font-family: cursive;
+    font-size: 16px;
+}
+
+.signup a:hover {
+    color: rgb(255, 0, 0);
+    font-family: cursive;
+    font-size: 18px;
+    transition: all .2s ease-in;
+    
+}
+
+
+
+
+.home {
+    color: greenyellow;
+}
+
+
+
+/*                                          header ends  */
+/*                                          intro start  */
+.intro {
+    background-color: #fedad8;
+    height: 120vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    /* animation  */
+    /* animation: changeBg 15s linear infinite; */
+}
+
+@keyframes changeBg
+{
+   0%{background-color: #fedad8;}
+
+   20%{background-color: #009688;}
+
+   40%{background-color: #2196f3;}
+
+   60%{background-color: #ff5722;}
+
+   80%{background-color: yellowgreen;}
+
+   100%{background-color:#fedad8;}
+   
+}
+
+
+
+
+.prop {
+    height: 70%;
+    width: 45%;
+
+}
+
+.box1 {
+    height: 40%;
+    width: 25%;
+    position: relative;
+    color: rgb(0, 0, 0);
+    line-height: 18px;
+    top: 300px;
+    left: 128px;
+}
+
+.h1_heading 
+{
+    /* font-family: 'Oswald', sans-serif; */
+    font-family: 'Playfair Display', serif;
+    /* font-family: 'Fauna One', serif; */
+    /* font-family: 'Quattrocento', rif se; */
+    
+    /* font-family: cursive; */
+    /* font-family: 'Alfa Slab One', cursive; */
+   
+
+}
+
+
+.line {
+    line-height: 18px;
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
+
+    
+    
+}
+
+.order {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    /* background-color: #000000; */
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 25px;
+    padding: 8px 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    /* color: #ffe; */
+    /* color: #C23B2E; */
+    position: relative;
+    left: 2px;
+    top: 20px;
+    transition: all .2s ease-in;
+}
+
+.hovr:hover {
+    /* color: greenyellow; */
+    color: rgb(255, 0, 0);
+    font-size: 16px;
+    /* transition: all .1s; */
+    border-radius: 25px;
+    border: 1px solid black;
+    box-shadow: 1px 2px 2px 0px rgb(89, 87, 87);
+
+
+    /* transform: translateX(10px); */
+}
+
+
+
+
+.box2 {
+    height: 100%;
+    width: 45%;
+    position: relative;
+    top: 2px;
+    right: 10px;
+    /* background-image: url("Smoothie fraise-pastèque_ccexpress.png"); */
+    background-image: url("HOme-page-hand-final.png");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+.recp {
+    text-decoration: none;
+    color: red;
+    font-family: cursive;
+    position: relative;
+    left: 90px;
+}
+
+
+/*                                          intro ends  */
+/*                                          benefit start */
+
+.benift_bx {
+    background-color: #fedad8;
+    background-color: whitesmoke;
+    /* border: 2px solid red; */
+    height: 64vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.boxpic {
+    height: 80vh;
+    width: 25%;
+    /* border: 2px solid red; */
+    position: relative;
+    top: 20px;
+    background-image: url(Greenvgt\ final.png);
+    background-repeat: no-repeat;
+    background-size: 380px 380px;
+}
+
+
+.box3 {
+
+
+    height: 60%;
+    width: 25%;
+    position: relative;
+    top: 95px;
+    left: 60px;
+    
+}
+
+.box4 {
+    height: 60%;
+    width: 25%;
+    position: relative;
+    top: 95px;
+    left: -60px;
+
+
+}
+
+
+.four_h_font
+{
+    font-family: cursive;
+    font-family: 'Oswald', sans-serif;
+    /* font-family: 'Playfair Display', serif; */
+    /* font-family: 'Alfa Slab One', cursive; */
+
+
+    /* font-family: 'Fauna One', serif; */
+    /* font-family: 'Quattrocento', rif se; */
+    /* font-family: 'Open Sans', sans-serif; */
+}
+
+.pros {
+    font-size: 15px;
+    /* font-family: cursive; */
+    /* font-family: 'Fauna One', serif; */
+    /* font-family: 'Oswald', sans-serif; */
+    /* font-family: 'Quattrocento', rif se; */
+    font-family: 'Open Sans', sans-serif;
+
+
+}
+
+
+/*                                          benefit ends */
+/*                                          about  start */
+.about_bx {
+    /* background-color: #dcdcdc; */
+    /* border: 2px solid red; */
+    font-family: sans-serif;
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box5 {
+    height: 12%;
+    width: 12%;
+    /* border: 2px solid rgb(18, 134, 38); */
+    position: relative;
+    top: -15px;
+    text-align: center;
+
+    font-family: 'Oswald', sans-serif;
+    /* font-family: 'Playfair Display', serif; */
+    /* font-family: 'Alfa Slab One', cursive; */
+
+
+    /* font-family: 'Fauna One', serif; */
+    /* font-family: 'Quattrocento', rif se; */
+    /* font-family: 'Open Sans', sans-serif; */
+
+}
+
+
+.box6 {
+    /* font-family: 'Fauna One', serif; */
+    /* font-family: 'Quattrocento', rif se; */
+    font-family: 'Open Sans', sans-serif;
+
+
+    /* font-family: cursive; */
+    height: 250px;
+    width: 300px;
+    /* border: 2px solid rgb(22, 62, 75); */
+    position: relative;
+    top: 10px;
+   text-align: center;
+   text-transform: capitalize;
+
+
+}
+.hung
+{
+    /* font-family: cursive; */
+    font-family: 'Oswald', sans-serif;
+    /* font-family: 'Playfair Display', serif; */
+    /* font-family: 'Alfa Slab One', cursive; */
+
+
+    /* font-family: 'Fauna One', serif; */
+    /* font-family: 'Quattrocento', rif se; */
+    /* font-family: 'Open Sans', sans-serif; */
+
+
+}
+
+/* .free_text
+{
+
+} */
+
+.recp2 {
+
+    border: .5px solid black;
+    border-radius: 0px;
+    padding: .1em 1em;
+    text-decoration: none;
+    color: red;
+    font-family: cursive;
+    text-transform: uppercase;
+    position: relative;
+    left: 5px;
+    top: 20px;
+    /* transition: all .5s; */
+    transition: all .2s ease-in;
+
+    
+
+}
+
+.hovr2:hover {
+    color: rgb(99, 47, 255);
+    font-size: 18px;
+    border-radius: 25px;
+    border: 1px solid black;
+    box-shadow: 1px 2px 2px 0px rgb(124, 120, 120);
+
+
+}
+
+
+
+
+
+/*                                          about  ends */
+/*                                          footer starts */
+.footer_bx {
+    background-color: #000000;
+    color: white;
+    height: 8vh;
+    width: 100vw;
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-around; */
+
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 4vh 4vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+
+}
+
+.powered
+{
+    background-color:red;
+    position: relative;
+    top: 10px;
+    
+}
+
+.icons
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.iconsize
+{
+    height: 24px;
+    width: 66px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  
+
+  
+
+
+/*                                          footer ends */

@@ -1,0 +1,545 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 250vh;
+    width: 100vw;
+}
+
+header {
+    background-color: black;
+    color: white;
+    height: 10vh;
+    width: 100vw;
+    /* border: 2px solid rgb(160, 187, 79); */
+    position: fixed;
+    z-index: 1;
+}
+
+li {
+    display: inline-block;
+    padding: 0px 30px;
+    padding-top: 28px;
+}
+
+li a {
+
+    text-decoration: none;
+    color: white;
+
+}
+
+ul {
+    position: absolute;
+    right: 30vw;
+
+}
+
+li a:hover {
+    color: greenyellow;
+    /* font-size: 18px; */
+}
+
+ul li:hover {
+    transform: translateY(-4px);
+    transition: all .2s ease-in;
+}
+
+
+.recipe {
+    color: greenyellow;
+}
+
+/* ------------------------ header end  -------------------- */
+
+/* --------------------------first block starts------------ */
+.three_pics {
+    height: 77vh;
+    width: 100vw;
+    /* border: 2px solid rgb(255, 0, 0); */
+    background-color: whitesmoke;
+    position: relative;
+    top: 10vh;
+
+
+    /* ------------------------  */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.intro_text {
+    height: 15%;
+    width: 100vw;
+    /* border: 2px solid rgb(255, 0, 0); */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+
+
+}
+
+.imgx {
+    /* height: 85%; */
+    /* height: 90%; */
+
+    width: 100vw;
+    /* border: 2px solid rgb(255, 25, 244); */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+    background-image: url(order.top2.jpg);
+
+
+    /* ------------------------  */
+
+    height: 70%;
+
+}
+
+.bx1 {
+    height: 80%;
+    /* width: 27vw; */
+    width: 22vw;
+
+    /* border: .5px solid rgb(0, 17, 255); */
+    border-radius: 0px 20% 0px 0px;
+
+    background-image: url(recipe1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* opacity: 0; */
+
+    /* box-shadow: .5px .5px 4px 0px rgb(255, 255, 255); */
+
+}
+
+
+.bx2 {
+    height: 80%;
+    /* width: 27vw; */
+    width: 22vw;
+
+    /* border: .5px solid rgb(0, 17, 255); */
+    border-radius: 0px 25% 0% 25%;
+
+    background-image: url(recipe2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -120px 0px;
+    background-image: 536px 373px;
+
+    /* opacity: 0; */
+
+}
+
+.bx3 {
+    height: 80%;
+    /* width: 27vw; */
+    width: 22vw;
+
+
+    /* border: .5px solid rgb(0, 17, 255); */
+    border-radius: 0px 0px 0px 20%;
+
+    background-image: url(recipe3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-image: ; */
+    background-position: -20px 0px;
+
+    /* opacity: 0; */
+
+
+
+}
+
+.bx1:hover {
+    transition: all .2s;
+    transform: translateY(-5px);
+}
+
+.bx2:hover {
+    transition: all .2s;
+    transform: translateY(-5px);
+}
+
+.bx3:hover {
+    transition: all .2s;
+    transform: translateY(-5px);
+}
+
+
+/* --------------------------first block ends------------ */
+/* -------------------------main block starts---------- */
+
+.recp_main_box {
+    height: 75vh;
+    /* height: 100vh;  */
+    /* when detai is open  */
+
+    width: 100vw;
+    /* border: 2px solid rgb(255, 0, 157); */
+    /* background-color: rgb(223, 190, 148); */
+    background-color: wheat;
+
+    display: table;
+
+
+}
+
+.tabel {
+    display: table;
+}
+
+.intro_text {
+    height: 60px;
+    width: 100vw;
+    /* border: 2px solid rgb(0, 255, 98); */
+
+    animation: changeBg 15s linear infinite;
+
+
+}
+
+.contaner_content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.sizx {
+    height: 330px;
+    width: 330px;
+    /* border: .5px solid black; */
+    position: relative;
+    top: 30px;
+}
+
+.sizx:hover {
+    box-shadow: .5px .5px 8px 1px #ff8c00;
+    transition: all .2s;
+    transform: translateY(-5px);
+
+}
+
+
+
+.sizxx {
+    height: 80px;
+    width: 330px;
+    /* border: .5px solid black; */
+    position: relative;
+    top: 30px;
+    text-align: left;
+}
+
+
+/* --------------------------------------------------------------- */
+.rex1 {
+    background-image: url(kale-smoothie.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom 1% right 0%;
+    background-size: 330px 440px;
+
+    border-radius: 7px;
+    box-shadow: .5px .5px 4px 0px black;
+
+
+}
+
+.rex2 {
+    background-image: url(Pineapple_Passion_Collagen_Smoothie.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom 1% right 0%;
+    background-size: 340px 375px;
+    border-radius: 7px;
+    box-shadow: .5px .5px 4px 0px black;
+
+}
+
+.rex3 {
+    background-image: url(milk_honey.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom 225% right 0%;
+    background-size: 340px 330px;
+    border-radius: 7px;
+    box-shadow: .5px .5px 4px 0px black;
+
+}
+
+.rex4 {
+    background-image: url(pumpkin.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom 1% right 0%;
+    background-size: 340px 375px;
+    border-radius: 7px;
+    box-shadow: .5px .5px 4px 0px black;
+
+}
+
+
+summary:hover {
+    transition: all .1s;
+    font-size: 18px;
+}
+
+
+/* -------------------------main block ENDS---------- */
+.white {
+    height: 6vh;
+    width: 100vw;
+    background-color: wheat;
+}
+
+/* ------------------------------------------------------ */
+
+/* ------------------------gallary start-------------  */
+.gallary {
+    height: 100vh;
+    width: 100vw;
+    background-color: whitesmokes;
+
+    justify-items: center;
+    align-items: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    animation: changeBg 15s linear infinite;
+
+}
+
+.size:hover {
+    box-shadow: .5px .5px 4px 0px black;
+    transition: all .2s;
+
+}
+
+
+.gallary_text {
+    font-size: 40px;
+    position: relative;
+    bottom: 25px;
+
+    /* background-color: rgb(103, 79, 79); */
+}
+
+
+
+@keyframes changeBg {
+    0% {
+        background-color: #fedad8;
+    }
+
+    20% {
+        background-color: #e7a2cb;
+    }
+
+    40% {
+        background-color: #a8deea;
+    }
+
+    60% {
+        background-color: #f3bd60;
+    }
+
+    80% {
+        background-color: rgb(161, 207, 70);
+    }
+
+    100% {
+        background-color: #fedad8;
+    }
+
+}
+
+
+/* =================colage================= */
+.colage {
+
+    height: 80vh;
+    width: 44vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+
+    row-gap: 10px;
+    column-gap: 10px;
+    grid-template-areas:
+        "a b c d"
+        "e b f f"
+        "e g g h"
+        "i i j h";
+
+    /* background-color: rgb(186, 247, 183); */
+}
+
+.box1 {
+    grid-area: a;
+    background-color: white;
+    background-image: url(pumpkin.jpg);
+    background-size: cover;
+}
+
+.box2 {
+    grid-area: b;
+    background-color: white;
+    background-image: url(gal4.jpg);
+    background-size: cover;
+
+}
+
+.box3 {
+    grid-area: c;
+    background-color: white;
+    background-image: url(gal8.jpg);
+    background-size: cover;
+    background-position: bottom 12% left 0%;
+
+}
+
+.box4 {
+    grid-area: d;
+    background-color: white;
+    background-image: url(gal11.jpg);
+    background-size: cover;
+    background-position: bottom 0% left 18%;
+
+}
+
+.box5 {
+    grid-area: e;
+    background-color: white;
+    background-image: url(gal6.jpg);
+    background-size: cover;
+    background-position: bottom 0% left 56%;
+
+}
+
+.box6 {
+    grid-area: f;
+    background-color: white;
+    background-image: url(gal5.jpg);
+    background-size: cover;
+    background-position: bottom 74% left 0%;
+
+}
+
+.box7 {
+    grid-area: g;
+    background-color: white;
+    background-image: url(gal10.jpg);
+    background-size: cover;
+    background-position: bottom 0% left 0%;
+
+}
+
+.box8 {
+    grid-area: h;
+    background-color: white;
+    background-image: url(gal7.jpg);
+    background-size: cover;
+    background-position: bottom 0% left 92%;
+
+}
+
+.box9 {
+    grid-area: i;
+    background-color: white;
+    background-image: url(gal3.jpg);
+    background-size: cover;
+    background-position: bottom 45.2% left 0%;
+}
+
+.box10 {
+    grid-area: j;
+    background-color: white;
+    background-image: url(gal2.jpg);
+    background-size: cover;
+
+
+}
+
+
+
+
+
+
+
+/* ------------------------gallary ends-------------  */
+
+/*                 footer starts */
+.footer_bx {
+    background-color: #000000;
+    color: white;
+    height: 8vh;
+    width: 100vw;
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-around; */
+
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 4vh 4vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+
+}
+
+.powered {
+    background-color: red;
+    position: relative;
+    top: 10px;
+
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.iconsize {
+    height: 24px;
+    width: 66px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+
+
+/*                 footer ends */

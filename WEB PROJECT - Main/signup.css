@@ -1,0 +1,191 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    /* background-image: url(about_smo.jpg) ;
+     background-repeat: no-repeat;
+     background-size:1540px 665px;
+     background-position: 1% 0%;
+    */
+}
+
+header {
+    background-color: black;
+    color: white;
+    height: 10vh;
+    width: 100vw;
+    /* border: 2px solid rgb(160, 187, 79); */
+}
+
+li {
+    display: inline-block;
+    padding: 0px 30px;
+    padding-top: 28px;
+}
+
+li a {
+
+    text-decoration: none;
+    color: white;
+
+}
+
+ul {
+    position: absolute;
+    right: 30vw;
+
+}
+
+li a:hover {
+    color: greenyellow;
+    /* font-size: 18px; */
+}
+
+ul li:hover
+{
+    transform: translateY(-4px);
+    transition: all .2s ease-in;
+}
+
+.sign_color {
+    color: greenyellow;
+
+}
+
+/* ------------------------ header end  -------------------- */
+.bg {
+    height: 90vh;
+    width: 100vw;
+
+    background-image: url(about_smo.jpg);
+    background-repeat: no-repeat;
+    background-size: 1540px 665px;
+    background-position: 1% 0%;
+
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.sign_up {
+    height: 550px;
+    width: 360px;
+    /* border:.5px solid red; */
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    border-radius: 10px;
+
+}
+
+.sign_up h1 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+form {
+    width: 300px;
+    margin-left: 24px;
+    position: relative;
+    bottom: 12px;
+
+}
+
+form label {
+    display: flex;
+    text-align: center;
+    margin-top: 13px;
+    font-size: 18px;
+}
+
+form input {
+    width: 100%;
+    padding: 6px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    outline: none;
+}
+
+form input:hover {
+    color: grey;
+    border: 1.8px solid rgb(28, 27, 27);
+    border-radius: 8px;
+
+
+}
+
+input[type="button"] {
+    width: 310px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: #49c1a2;
+    color: white;
+}
+
+input[type="button"]:hover {
+    color: rgb(0, 0, 0);
+
+}
+
+.sign_up p {
+    text-align: center;
+    margin-top: -1px;
+
+}
+
+.login {
+    position: relative;
+    top: 18px;
+    color: rgb(0, 0, 0);
+}
+
+.login a {
+    color: #399a82;
+
+}
+.login a:hover
+{
+    text-decoration: none;
+}
+
+/* -------------login------------------ */
+.login_box {
+    height: 260px;
+    width: 360px;
+    /* border:.5px solid red; */
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+
+    margin: auto;
+    position: relative;
+    bottom: 100px;
+}
+
+.login_box h1 {
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+.login_box p {
+    text-align: center;
+    position: relative;
+    top: 18px;
+    color: rgb(0, 0, 0);
+}
+
+.sign a {
+    color: #399a82;
+
+}
+.sign a:hover
+{
+    text-decoration: none;
+}

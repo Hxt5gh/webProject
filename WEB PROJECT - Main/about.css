@@ -1,0 +1,314 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  height: 203vh;
+  width: 100vw;
+}
+
+header {
+  background-color: black;
+  color: white;
+  height: 10vh;
+  width: 100vw;
+  position: fixed;
+  z-index: 1;
+  /* border: 2px solid rgb(160, 187, 79); */
+}
+
+li {
+  display: inline-block;
+  padding: 0px 30px;
+  padding-top: 28px;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+}
+
+ul {
+  position: absolute;
+  right: 30vw;
+}
+
+li a:hover {
+  color: greenyellow;
+  /* font-size: 18px; */
+}
+
+ul li:hover {
+  transform: translateY(-4px);
+  transition: all 0.2s ease-in;
+}
+
+.about {
+  color: greenyellow;
+}
+
+/* ------------------------ header end  -------------------- */
+/* ------------------------ into img -------------------- */
+
+.first_img {
+  height: 50vh;
+  width: 100vw;
+  /* border: 1px solid red; */
+  /* background-image: url(about_draw.png); */
+  background-image: url(about.top-crop.jpg);
+  /* background-image: url(about.top-crop2.jpg); */
+  background-size: 100vw 63vh;
+  background-position: bottom 12% left 0%;
+
+  position: relative;
+  top: 10vh;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.h1txt {
+  color: #050a30;
+  font-family: "Oswald", sans-serif;
+  /* font-family: 'Playfair Display', serif; */
+  /* font-family: 'Alfa Slab One', cursive; */
+
+  /* font-family: 'Fauna One', serif; */
+  /* font-family: 'Quattrocento', rif se; */
+  /* font-family: 'Open Sans', sans-serif; */
+}
+
+/* .h1txt hr:hover
+{
+    border-radius: 0px;
+    color: rgb(0, 0, 0);
+    width: 145px;
+    height: 5px;
+} */
+
+.h1txtx {
+  color: #050a30;
+  /* font-family: 'Oswald', sans-serif; */
+  /* font-family: 'Playfair Display', serif; */
+  /* font-family: 'Alfa Slab One', cursive; */
+
+  /* font-family: 'Fauna One', serif; */
+  font-family: "Quattrocento", rif se;
+  /* font-family: 'Open Sans', sans-serif; */
+}
+
+.editx {
+  padding: 0em 8em;
+  text-align: center;
+  position: relative;
+  bottom: 50px;
+}
+
+/* ------------------------ into img end------------------- */
+
+/* ------------------------ 2 box start -------------------- */
+.twoBx {
+  height: 60vh;
+  width: 100vw;
+  background-color: whitesmoke;
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.sizxx {
+  height: 380px;
+  width: 380px;
+  /* border: 2px solid rgb(0, 42, 255);  */
+}
+
+.sizxx h1 {
+  font-size: 35px;
+  /* font-family: 'Oswald', sans-serif; */
+  font-family: "Playfair Display", serif;
+  /* font-family: 'Alfa Slab One', cursive; */
+
+  /* font-family: 'Fauna One', serif; */
+  /* font-family: 'Quattrocento', rif se; */
+  /* font-family: 'Open Sans', sans-serif; */
+}
+
+.sizxx h4 {
+  /* font-family: 'Oswald', sans-serif; */
+  /* font-family: 'Playfair Display', serif; */
+  /* font-family: 'Alfa Slab One', cursive; */
+
+  /* font-family: 'Fauna One', serif; */
+  /* font-family: 'Quattrocento', rif se; */
+  font-family: "Open Sans", sans-serif;
+}
+
+.bxx1 {
+  /* background-image: url(about_bx_1.jpg); */
+  background-image: url(about_bx_111.png);
+  /* background-color: rgb(240, 67, 67); */
+  background-size: cover;
+  background-position: 17% 1%;
+  /* border: .5px solid black; */
+
+  position: relative;
+  top: 5%;
+}
+
+.bxx2 {
+  position: relative;
+  /* top: 5%; */
+  top: 14%;
+  text-align: left;
+  font-family: Tahoma, sans-serif;
+  /* border: .5px solid black; */
+}
+
+/* ------------------------ 2 box start  eend-------------------- */
+
+/* ------------------------detail text start-------------------- */
+.gimg {
+  height: 90vh;
+  background-image: url(about_g.jpg);
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: 90vh;
+}
+
+.gsizx {
+  height: 60px;
+  width: 160%;
+  border: 0.5px solid black;
+  text-align: center;
+  border-radius: 3px;
+  background-color: #e9d980;
+  /* opacity: 0.7; */
+}
+
+.friday {
+  position: relative;
+  left: 80px;
+  top: 95px;
+  height: 75%;
+  width: 18%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  /* border: 3px solid red; */
+}
+
+.gsizx h4 {
+  /* font-family: 'Oswald', sans-serif; */
+  font-family: "Playfair Display", serif;
+  /* font-family: 'Alfa Slab One', cursive; */
+
+  /* font-family: 'Fauna One', serif; */
+  /* font-family: 'Quattrocento', rif se; */
+  /* font-family: 'Open Sans', sans-serif; */
+  font-size: 15px;
+}
+
+.gsizx p {
+  /* font-family: 'Oswald', sans-serif; */
+  /* font-family: 'Playfair Display', serif; */
+  /* font-family: 'Alfa Slab One', cursive; */
+
+  /* font-family: 'Fauna One', serif; */
+  /* font-family: 'Quattrocento', rif se; */
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+}
+
+.about_text {
+  height: 50vh;
+  width: 40vw;
+  position: relative;
+  top: 40px;
+  right: 170px;
+  font-size: 16px;
+  /* border: 3px solid rgb(38, 0, 255); */
+
+  /* font-family: 'Oswald', sans-serif; */
+  /* font-family: 'Playfair Display', serif; */
+  /* font-family: 'Alfa Slab One', cursive; */
+
+  /* font-family: 'Fauna One', serif; */
+  /* font-family: 'Quattrocento', rif se; */
+  font-family: "Open Sans", sans-serif;
+}
+
+.about_text h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 32px;
+}
+
+.about_text h5 {
+  font-family: "Playfair Display", serif;
+  font-size: 18px;
+  text-align: center;
+}
+
+.gsizx:hover {
+  box-shadow: 0.5px 0.5px 4px 0px black;
+  transition: all 0.2s;
+}
+
+/* ------------------------detail text ends-------------------- */
+
+.footer_bx {
+  background-color: #000000;
+  color: white;
+  height: 8vh;
+  width: 100vw;
+  /* display: flex;
+    flex-direction: row;
+    justify-content: space-around; */
+
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 4vh 4vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.powered {
+  background-color: red;
+  position: relative;
+  top: 10px;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.iconsize {
+  height: 24px;
+  width: 66px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}

@@ -1,0 +1,567 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 250vh;
+    width: 100vw;
+}
+
+header {
+    background-color: black;
+    color: white;
+    height: 10vh;
+    width: 100vw;
+    /* border: 2px solid rgb(160, 187, 79); */
+    position: fixed;
+    z-index: 1;
+
+}
+
+li {
+    display: inline-block;
+    padding: 0px 30px;
+    padding-top: 28px;
+}
+
+li a {
+
+    text-decoration: none;
+    color: white;
+
+}
+
+ul {
+    position: absolute;
+    right: 30vw;
+
+}
+
+li a:hover {
+    color: greenyellow;
+    /* font-size: 18px; */
+}
+
+ul li:hover {
+    transform: translateY(-4px);
+    transition: all .2s ease-in;
+}
+
+
+.order {
+    color: greenyellow;
+}
+
+/* ----------------headdeer ends  ------------------*/
+
+/* -----------------buy menue starts --------------- */
+
+.pre {
+    height: 67vh;
+    width: 100vw;
+    /* border: 1px solid red; */
+    background-image: url(oreder.top1.jpg);
+    background-size: 217vh 31vw;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 10vh;
+
+
+
+    /* background-size: 171vh 31vw; */
+
+    /*     
+    background-image: url(order.slide.jpg);
+    background-size: 217vh 43vw;
+    background-position: bottom 9.5% left 0%; */
+
+    /* background-image: url(order.slide1.jpg);
+    background-size: 217vh 40vw;
+    background-position: bottom 49.5% left 0%;  */
+
+    /* background-image: url(order.slide2.jpg);
+    background-size: 217vh 40vw;
+    background-position: bottom 49.5% left 0%;  */
+
+    /* background-image: url(order.slide3.jpg);
+    background-size: 217vh 40vw;
+    background-position: bottom 75.5% left 0%;  */
+
+    /* animation: changeBg 15s infinite; */
+    animation: changeBg 15s linear alternate infinite;
+
+
+}
+
+
+
+/* @keyframes changeBg {
+    0% {
+        background-image: url(oreder.top1.jpg);
+        background-size: 217vh 31vw;
+
+    }
+
+    25% {
+        background-image: url(order.slide.jpg);
+        background-size: 217vh 43vw;
+        background-position: bottom 9.5% left 0%;
+    }
+
+    50% {
+        background-image: url(order.slide1.jpg);
+        background-size: 217vh 40vw;
+        background-position: bottom 49.5% left 0%;
+    }
+
+    75% {
+        background-image: url(order.slide2.jpg);
+        background-size: 217vh 40vw;
+        background-position: bottom 49.5% left 0%;
+    }
+
+    100% {
+        background-image: url(order.slide3.jpg);
+        background-size: 217vh 40vw;
+        background-position: bottom 75.5% left 0%;
+    }
+
+
+} */
+
+
+
+
+
+.text {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 10%;
+    left: 7px;
+    font-family: cursive;
+    color: rgb(0, 0, 0);
+    font-size: 60px;
+
+
+
+
+    /* font-family: 'Oswald', sans-serif; */
+    font-family: 'Playfair Display', serif;
+    /* font-family: 'Alfa Slab One', cursive; */
+
+
+    /* font-family: 'Fauna One', serif; */
+    /* font-family: 'Quattrocento', rif se; */
+    /* font-family: 'Open Sans', sans-serif; */
+
+}
+
+/* ------------------------------------------  */
+/* layout*/
+.Contaner {
+    height: 80vh;
+    width: 100vw;
+    /* border: 1px solid red; */
+
+}
+
+.h2text {
+    /* font-family: cursive; */
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 3%;
+    text-transform: uppercase;
+
+    font-family: 'Playfair Display', serif;
+
+}
+
+
+.Items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+    top: 10%;
+
+
+}
+
+.size {
+    height: 350px;
+    width: 340px;
+    border-width: .5px .5px 0px .5px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 5px 5px 0px 0px;
+
+}
+
+.sizex {
+    height: 100px;
+    width: 340px;
+    border-width: .5px .5px .5px .5px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 0px 0px 5px 5px;
+
+}
+
+/* ===========hover =========== */
+
+.size:hover {
+    transform: translateY(-5px);
+    transform: scale(102%, 102%);
+
+    transition: all .2s ease-in;
+
+}
+
+/* .sizex:hover { */
+    /* transform: scale(102%, 102%);
+    box-shadow: rgb(38, 57, 77) 0px 20px 20px -10px;
+    transition: all .2s ease-in; */
+/*     
+    transform: translateY(-5px);
+    transform: scale(102%, 102%);
+
+    transition: all .2s ease-in; */
+
+/* } */
+
+
+/* -----------------hover ----------------------- */
+/* .size:hover
+{
+    position: relative;
+    bottom: 2px;
+}
+.sizex:hover
+{
+    position: relative;
+    bottom: 2px;  
+} */
+
+
+
+
+/* ----------------------price------------------ */
+
+.disc {
+    font-size: 13px;
+    text-align: center;
+
+    /* font-family: 'Oswald', sans-serif; */
+    /* font-family: 'Playfair Display', serif; */
+    /* font-family: 'Alfa Slab One', cursive; */
+
+
+    /* font-family: 'Fauna One', serif; */
+    /* font-family: 'Quattrocento', rif se; */
+    /* font-family: 'Open Sans', sans-serif; */
+
+}
+
+.xx1 {
+    text-align: center;
+}
+
+.xx2 {
+    /* font-size: 16px; */
+    position: relative;
+    left: 5px;
+    bottom: 3px;
+    text-align: left;
+}
+
+.xx3 {
+    border: 2px solid black;
+    padding: 7px .5em;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    position: relative;
+    bottom: 29PX;
+    left: 220px;
+    transition: all .1s;
+}
+
+.xx3:hover {
+    color: greenyellow;
+    font-size: 17px;
+}
+
+
+/* ----------------------price end------------------ */
+
+/* ------popular- Drinks-------------------------------  */
+
+.bx1 {
+    background-image: url(superfruit1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom 14% right 0%;
+    background-size: 340px 375px;
+
+    box-shadow: 2px 0px 4px 0px black;
+
+}
+
+.bx2 {
+    background-image: url(tropical-smoothie.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom 68% right 57%;
+    background-size: 340px 490px;
+    box-shadow: 2px 0px 4px 0px black;
+
+}
+
+
+
+.bx3 {
+    background-image: url(chunkeymonkey1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom 33% right 105%;
+    background-size: 353px 450px;
+    box-shadow: 2px 0px 4px 0px black;
+
+
+}
+
+
+
+.bx4 {
+    background-image: url(mint2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom 46% right 0%;
+    background-size: 340px 438px;
+    box-shadow: 2px 0px 4px 0px black;
+
+}
+
+.bxx1 {
+    box-shadow: 2px 2px 4px 0px black;
+}
+
+.bxx2 {
+    box-shadow: 2px 2px 4px 0px black;
+}
+
+.bxx3 {
+    box-shadow: 2px 2px 4px 0px black;
+}
+
+.bxx4 {
+    box-shadow: 2px 2px 4px 0px black;
+}
+
+
+
+
+/* ------popular- Drinks ends-------------------------------  */
+
+/* ------fruit- Drinks-------------------------------  */
+
+.bx5 {
+    background-image: url(freshly-blended-yellow-and-orange-fruit.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom 1% right 0%;
+    background-size: 340px 375px;
+    box-shadow: 2px 0px 4px 0px black;
+
+
+}
+
+.bx6 {
+    background-image: url(jumpstart.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 2px 0px 4px 0px black;
+
+
+}
+
+.bx7 {
+    background-image: url(sage.jpg);
+    background-repeat: no-repeat;
+    background-size: 340px 350px;
+    box-shadow: 2px 0px 4px 0px black;
+
+
+
+
+
+}
+
+.bx8 {
+    background-image: url(cherrychocolate.jpg);
+    background-repeat: no-repeat;
+    background-size: 340px 425px;
+    background-position: bottom 1% right 0%;
+    box-shadow: 2px 0px 4px 0px black;
+
+
+    /* background-size: 340px 367px; */
+}
+
+.bxx5 {
+    box-shadow: 2px 2px 4px 0px black;
+}
+
+.bxx6 {
+    box-shadow: 2px 2px 4px 0px black;
+}
+
+.bxx7 {
+    box-shadow: 2px 2px 4px 0px black;
+}
+
+.bxx8 {
+    box-shadow: 2px 2px 4px 0px black;
+}
+
+
+
+
+
+/* ------fruit- Drinks end-------------------------------  */
+
+/* ----------Frizen drinks--------------------------------------------  */
+
+
+.bx9 {
+    background-image: url(Strawberry-raspberry-margarita-vianneyrodriguez-sweetlifebake.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom 0% right 0%;
+    background-size: 340px 440px;
+    box-shadow: 2px 0px 4px 0px black;
+
+
+}
+
+.bx10 {
+    background-image: url(Frozen-Pineapple-Margaritas-8.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom 23% right 0%;
+    background-size: 340px 495px;
+
+    box-shadow: 2px 0px 4px 0px black;
+
+}
+
+.bx11 {
+    /* background-image: url(Mudslide-5-1.jpg); */
+    background-image: url(FROZEN-MUDSLIDE-RECIPE-4.jpg);
+
+    background-repeat: no-repeat;
+    background-size: 340px 410px;
+    background-position: bottom 60% right 0%;
+
+    box-shadow: 2px 0px 4px 0px black;
+
+
+
+
+
+}
+
+.bx12 {
+    background-image: url(Mermaid-Rum-Punch-Recipe-Blue-Ocean-Cocktail-Frozen-Drink.jpg);
+    background-repeat: no-repeat;
+    background-size: 340px 440px;
+    background-position: bottom 17% right 0%;
+    box-shadow: 2px 0px 4px 0px black;
+
+
+    /* background-size: 340px 367px; */
+
+}
+
+.bxx9 {
+    box-shadow: 2px 2px 4px 0px black;
+}
+
+.bxx10 {
+    box-shadow: 2px 2px 4px 0px black;
+}
+
+.bxx11 {
+    box-shadow: 2px 2px 4px 0px black;
+}
+
+.bxx12 {
+    box-shadow: 2px 2px 4px 0px black;
+}
+
+
+
+
+
+
+/* ----------Frizen drinks ends--------------------------------------------  */
+.footer_bx {
+    background-color: #000000;
+    color: white;
+    height: 8vh;
+    width: 100vw;
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-around; */
+
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 4vh 4vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+
+}
+
+.powered {
+    background-color: red;
+    position: relative;
+    top: 10px;
+
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.iconsize {
+    height: 24px;
+    width: 66px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
